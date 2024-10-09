@@ -1,6 +1,6 @@
 # Introdução ao Data Warehousing 
 
-* Traz os dados do desde o transacional até o processo da confecção de um dashboard de um relatório.
+    Traz os dados do desde o transacional até o processo da confecção de um dashboard de um relatório.
 
     Dados analíticos, são dados esponíveis a serem explorados para atender o negócio empresarial. O dado facilita a vida do comercial, após ser feito modelos estatísticos.
     O DW precisa ser explorado para descobrir quais respostas irá ser atendida. Entender o que a empresa busca através dos dados é crucial.
@@ -29,13 +29,13 @@
 
     [E] possível analisar que se segmentos e produtos estão impulsionando o crescimento, líderes podem alocar investimentos de forma adequada. Pontos chaves que justicam o uso do data warehousing
 
-*   Melhoria de tomada de decisão 
-*   Eficiência operacional
-*   Redução de riscos
-*   Competitividade
-*   Satisfação do cliente
-*   Aumento de receitas
-*   Inovação
+    *   Melhoria de tomada de decisão 
+    *   Eficiência operacional
+    *   Redução de riscos
+    *   Competitividade
+    *   Satisfação do cliente
+    *   Aumento de receitas
+    *   Inovação
 
 ## Data Warehousing na visão tática, operacional  e estratégica
 
