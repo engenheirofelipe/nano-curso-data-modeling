@@ -24,18 +24,18 @@
 
 ## Data Warehousing na visão executiva e estratégica.
 
-    A capacidade de acessar , analisar e tomar decisões com base em dados precisos  é um fator crítico para o sucesso de negócios.  
-    No panorama executivo, um data warehouse traz uma visão unificada e ágil dos dados. E também na medida que o mercado se torna cada vez mais competitivo , um data warehousing se torna um diferencial estratégico, já que prevê tendências e identifica oportunidades e antecipa riscos.
+A capacidade de acessar , analisar e tomar decisões com base em dados precisos  é um fator crítico para o sucesso de negócios.  
+No panorama executivo, um data warehouse traz uma visão unificada e ágil dos dados. E também na medida que o mercado se torna cada vez mais competitivo , um data warehousing se torna um diferencial estratégico, já que prevê tendências e identifica oportunidades e antecipa riscos.
 
-    [E] possível analisar que se segmentos e produtos estão impulsionando o crescimento, líderes podem alocar investimentos de forma adequada. Pontos chaves que justicam o uso do data warehousing
+[E] possível analisar que se segmentos e produtos estão impulsionando o crescimento, líderes podem alocar investimentos de forma adequada. Pontos chaves que justicam o uso do data warehousing
 
-    *   Melhoria de tomada de decisão 
-    *   Eficiência operacional
-    *   Redução de riscos
-    *   Competitividade
-    *   Satisfação do cliente
-    *   Aumento de receitas
-    *   Inovação
+*   Melhoria de tomada de decisão 
+*   Eficiência operacional
+*   Redução de riscos
+*   Competitividade
+*   Satisfação do cliente
+*   Aumento de receitas
+*   Inovação
 
 ## Data Warehousing na visão tática, operacional  e estratégica
 
