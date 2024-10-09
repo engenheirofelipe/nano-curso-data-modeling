@@ -12,15 +12,15 @@
     A informação é uma moeda preciosa. A coleta, armazenamento e analise dos dados é um diferencial estratégico para empresas. Daí surge o conceito de data warehousing uma maneira de gerenciar informações qualitativas dos mais variados assuntos e formatos.
 
 
-## Data Warehouse :
+* Data Warehouse :
 
     É uma grande base de dados projetada para facilitar a gestão de grandes volumes de dados. É otimizado para carregamento e consulta de histórico de dados que serão utilizados para tomada de decisão. É uma arquitetura de armazenamento que apresenta dados de várias fontes e armazena em um local unificado.
 
-## Data Wareahousing :
+* Data Wareahousing :
 
     Onde temos o processo de coletar, organizar, armazenar e manipular os dados, englobando todas as etapas e tecnologia envolvidas durante a manutenção de uma DW, desde a etapa de extração até a etapa de load. Resumindo, o data warehousing é um processo contínuo de gerenciamento dos dados.
 
-O foco dessa arquitetura de baseia em identificar a origem dos dados , realiza a leitura, processa e transforma os dados para identificar sua veracidade.  
+*    O foco dessa arquitetura de baseia em identificar a origem dos dados , realiza a leitura, processa e transforma os dados para identificar sua veracidade.  
 
 ## Data Warehousing na visão executiva e estratégica.
 
@@ -42,6 +42,9 @@ O foco dessa arquitetura de baseia em identificar a origem dos dados , realiza a
     É utilizado para atender a demandas em curto e médio prazo. 
 
 # Atividade Arca de Noé.
+
+
+
 
 
 
