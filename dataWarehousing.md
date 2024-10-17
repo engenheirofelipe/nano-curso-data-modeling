@@ -43,6 +43,36 @@ No panorama executivo, um data warehouse traz uma visão unificada e ágil dos d
 
 # Atividade Arca de Noé.
 
+# O processo de Data Warehousing
+
+Preciso de uma plataforma de dados ? É porque chegou em perguntas sem respostas. É preciso identificar as perguntas, que tipos de dados responde as perguntas. Identificar os problemas para comecar o desenvolvimento da plataforma. Ou seja levantar requisitos.
+
+## Levantamento de requisitos
+
+Profissionais especializados para isso. Com stakeholders, identificam como o processo deles ja funciona, quais sao os processos dependentes desses profissionais, se a parte dele nao funcionar , quem ela estara afentando ?
+
+### Arquitetura tecnológica
+
+Quais ferramentas ? 
+Referencias, como parceiros.
+
+Identificar quais sao os gargalos, se faz uma melhoria de uma plataforma é porque identificou falhas antes. 
+
+# Modelagem de dados
+
+Formas de organizar os dados. O data warehouse conseguiu otimizar o armazenamento de dados. Era mais caro quando surgiu. Hoje com computacao em nuvem, conseguem aramazenar os dados sem ter custos. 
+
+O que acontece antes do dado pronto ? 
+
+Data warehouse tradicional - Pipeline : ETL 
+Atualmente ELT - Transforma os dados em camadas logicas depois do loading. 
+
+
+
+
+
+
+
 
 
 
