@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TEMPO_VENDA" directorySegmentName="seg_0" id="93DDC724-C0A8-067B-9543-545A20D486AE">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:31:59 UTC</createdTime>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<engineerTo>
+<item key="1931C54C-9797-A4B3-E590-581E50435F59" value="true"/>
+</engineerTo>
+<sourcePk>5BEC550F-B1A0-C9D4-CF9F-505A84A2F979</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>092BB1FE-1315-9C10-D1F2-ECD492AA228D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4F36DC3F-8C60-E557-86D4-73FC85791FBE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

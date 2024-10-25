@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ARCANOE" id="30EDF498-E604-2229-8733-6590FD110622" version="3.5">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:14:46 UTC</createdTime>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>30EDF498-E604-2229-8733-6590FD110622</designId>
+</OSDM_Design>

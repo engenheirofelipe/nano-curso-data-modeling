@@ -68,4 +68,29 @@ Os dados são tratados e organizados de maneiras distintas quando falamos em OLT
 ## Modelagem de dados dimensional Star Schema
 
 Sistema de apoio a tomadas de decisão. Adotada para criação de datawarehouse. Tabela central (fato) rodeada a suas respectivas dimensões. Tem um foco na necessidade do negócio. 
+Formato de uma estrela.
+
+Tabela fato roedada com suas dimensões. Nas tabelas dimensões tem atributos descritores que permite dar conceitos a tabela fato, e na fato atributos de medidas. 
+O star schema tem foco em uma necessidade de negócio. 
+
+### Construindo um modelo de dados dimensional (analítico) desde o início.
+
+![alt text](./img/dadosDimensional-INICIO.png)
+
+Conjunto de regras de negócio , 4 regras de negócio de otimização do projeto para que possa ter resultado em tempo ábil.
+
+       
+# Modelo de dados dimensional Snowflake
+
+Surgiu em 1990 como uma variação do modelo de dados star schema.  Foi desenvolvido especificamente para normalizar dados em ambientes de datawarehousing. Um modelo floco de modo está mais próximo de um diagrama de entidade - relacionamento , porque os dados de dimensão são normalizados. 
+
+Esse modelo é utilizado em caso onde a normalização de dados é priorizada.  Uma tabela de dimensão pode ser dividida em várias tabelas por exemplo. Os atributos são divididos em tabelas, nada uma ideia de hierarquia.
+
+# Modelagem dimensional de dados CONSTELAÇÃO
+
+Conjunto de várias tabelas de fato que compartilham tabelas de dimensções em comum.
+
+
+
+
 

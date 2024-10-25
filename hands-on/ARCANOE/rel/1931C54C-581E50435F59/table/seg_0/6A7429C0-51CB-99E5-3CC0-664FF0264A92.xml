@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A7429C0-51CB-99E5-3CC0-664FF0264A92" name="DIM_TEMPO">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>092BB1FE-1315-9C10-D1F2-ECD492AA228D</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_TEMPO" id="E6476035-55B6-599A-82A5-F96A6716112D">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>874C27C8-F21E-4824-1682-41B03D8F34B9</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_DIA" id="68E0B398-A709-10C9-E5B1-8D3EC3F34483">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>F8B16111-672D-F583-1A02-E20DDC827EE7</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_MES" id="255A78A8-F428-AC7A-66E2-1F2DF5D355B7">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>ED78588C-6F41-3611-24E7-7F048631FBF7</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_ANO" id="F833111C-C63E-4BFB-F540-71F238CFBE4C">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>CFF3C873-2839-0BBD-B467-CFC60F6F6D32</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FL_FERIADO" id="17DB614D-C5F8-FABA-DECE-2D43CC23FDA1">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>27D1C7E6-6C3F-51E3-6BAB-56050CF1B50A</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D9E020F-203D-3E43-6367-B328A6CE324A" name="DIM_TEMPO_PK">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>5BEC550F-B1A0-C9D4-CF9F-505A84A2F979</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6476035-55B6-599A-82A5-F96A6716112D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

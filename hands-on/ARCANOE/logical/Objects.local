@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="920D3CBD-61A4-F54B-BE48-76F23292300E" name="DIM_PRODUTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B5670ADA-53B5-480C-569B-FD736BDDDD3B" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="092BB1FE-1315-9C10-D1F2-ECD492AA228D" name="DIM_TEMPO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B5670ADA-53B5-480C-569B-FD736BDDDD3B" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="4F36DC3F-8C60-E557-86D4-73FC85791FBE" name="FATO_VENDA_PRODUTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B5670ADA-53B5-480C-569B-FD736BDDDD3B" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="63AC0B8D-8AE1-C431-6BAE-D51E7D9D396D" name="FK_PRODUTO_VENDA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="B5670ADA-53B5-480C-569B-FD736BDDDD3B" propertySourceId="920D3CBD-61A4-F54B-BE48-76F23292300E" propertyTargetId="4F36DC3F-8C60-E557-86D4-73FC85791FBE"/>
+   <object objectType="Relation" objectID="93DDC724-C0A8-067B-9543-545A20D486AE" name="FK_TEMPO_VENDA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="B5670ADA-53B5-480C-569B-FD736BDDDD3B" propertySourceId="092BB1FE-1315-9C10-D1F2-ECD492AA228D" propertyTargetId="4F36DC3F-8C60-E557-86D4-73FC85791FBE"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

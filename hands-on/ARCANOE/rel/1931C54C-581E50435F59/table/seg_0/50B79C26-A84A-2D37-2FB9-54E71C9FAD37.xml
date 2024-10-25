@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50B79C26-A84A-2D37-2FB9-54E71C9FAD37" name="FATO_VENDA_PRODUTO">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>4F36DC3F-8C60-E557-86D4-73FC85791FBE</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_TEMPO" id="E70A47B3-0252-BDB2-241D-027F4B9D30F5">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>B30D010A-0FC9-A1A6-9997-96DF4424446E</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F07F492-D30A-ABBD-2439-C816E6300004" referredColumn="E6476035-55B6-599A-82A5-F96A6716112D"/>
+</associations>
+</Column>
+<Column name="SK_PRODUTO" id="8C351BE1-0229-E37C-AB71-4EAAE3B25B8A">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>2640E972-3B39-64CB-83D6-ED92F2B36900</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2077FF1B-C5F5-DAFB-23C1-9BF131AA5018" referredColumn="743A0F47-5A08-5657-188E-1D0875AD29AB"/>
+</associations>
+</Column>
+<Column name="VL_TOTAL_VENDA" id="4D32BCAF-F33C-E75F-B9AE-7710C4D7B320">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>1366494E-CF88-E7E3-A2E3-0AE1D9239331</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QT_TOTAL_VENDA" id="3FE63FB1-09B8-B701-3E9C-B58A454BBD34">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>ACFF2FA2-CEBB-3EA2-C398-2CFEA14C1925</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2588C54-6F00-20F0-5BE9-B165F9AF60D4" name="FATO_VENDA_PRODUTO_PK">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>76FCDF62-B28D-701E-6EB8-97FB7AACEC23</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E70A47B3-0252-BDB2-241D-027F4B9D30F5"/>
+<colUsage columnID="8C351BE1-0229-E37C-AB71-4EAAE3B25B8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="332389F7-D55C-3145-5BDF-7B7DBA5F2DED" name="FK_PRODUTO_VENDA">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>63AC0B8D-8AE1-C431-6BAE-D51E7D9D396D</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C351BE1-0229-E37C-AB71-4EAAE3B25B8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5B6EF0A-931F-D4F0-765B-4DCF3067B99D" name="FK_TEMPO_VENDA">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:38:22 UTC</createdTime>
+<generatorID>93DDC724-C0A8-067B-9543-545A20D486AE</generatorID>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E70A47B3-0252-BDB2-241D-027F4B9D30F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

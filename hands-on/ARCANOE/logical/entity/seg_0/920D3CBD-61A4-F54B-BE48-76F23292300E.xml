@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="920D3CBD-61A4-F54B-BE48-76F23292300E" name="DIM_PRODUTO">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:24:51 UTC</createdTime>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<engineerTo>
+<item key="1931C54C-9797-A4B3-E590-581E50435F59" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_PRODUTO" id="B2E8185D-0082-ACDC-2E48-60E7757255B3">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:25:02 UTC</createdTime>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<engineerTo>
+<item key="1931C54C-9797-A4B3-E590-581E50435F59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PRODUTO" id="5B7C6D2A-77C5-078B-03C1-64F89AC85870">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:25:22 UTC</createdTime>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<engineerTo>
+<item key="1931C54C-9797-A4B3-E590-581E50435F59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEG_PRODUTO" id="E21D3A66-464F-3C80-AFCA-C05EA2D58A5F">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:25:53 UTC</createdTime>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<engineerTo>
+<item key="1931C54C-9797-A4B3-E590-581E50435F59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>95</dataTypeSize>
+<ownDataTypeParameters>95,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_EMBALAGEM" id="024CF266-FCE2-4234-C608-CB47C3EF3DA7">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:26:27 UTC</createdTime>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<engineerTo>
+<item key="1931C54C-9797-A4B3-E590-581E50435F59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2154A66-6BDA-144A-A44E-DDDFC80C8699" name="DIM_PRODUTO PK">
+<createdBy>felip</createdBy>
+<createdTime>2024-10-25 18:25:20 UTC</createdTime>
+<ownerDesignName>ARCANOE</ownerDesignName>
+<engineerTo>
+<item key="1931C54C-9797-A4B3-E590-581E50435F59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B2E8185D-0082-ACDC-2E48-60E7757255B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
