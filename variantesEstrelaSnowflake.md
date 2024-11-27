@@ -19,7 +19,7 @@
 
 ## Estrela parcial
 
-Algumas dimensões mão estão associadas a tabela fato. Traz mais flexibilidade, pois trazer maior complexidade entre as relações.
+Algumas dimensões não estão associadas a tabela fato. Traz mais flexibilidade, pois trazer maior complexidade entre as relações.
 Pode ocorrer maior redundância de dados do que o modelo floco de neve. Embora menos redundância em relação  
 
 <img src='./img/estrelaParcial.png'>
@@ -39,6 +39,8 @@ Dimensões divididas acessando a mesma tabela fato. As dimensões são divididas
 <img src='./img/dimensoesParticionamento.png'>
 
 # Variantes de modelos de dados dimensional Snow Flake
+
+### O modelo de dados snowflake tem como característica criar estrutura de dados desnormalizadas.
 
 *   Floco de neve pesquisa
 *   Floco de neve atributo
